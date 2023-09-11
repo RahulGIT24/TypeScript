@@ -65,11 +65,11 @@ const exampleObject = {
 }
 
 // Invalid it requires boolean
-// exampleObject.prop2 = 12;
+// exampleObject.prop2 = 3;
 
 interface Guitarist {
-    name?: string,
-    active: boolean, // Optional property
+    name?: string, // Optional property
+    active: boolean, 
     albums: (string | number)[]
 }
 
